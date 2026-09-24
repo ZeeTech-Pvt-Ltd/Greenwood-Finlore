@@ -1,0 +1,18 @@
+# Greenwood Finlore
+
+> Greenwood Finlore is an AI powered multi-asset trading platform for Bitcoin, Ethereum and 300+ markets, built for Australian investors. The platform combines AI signal scanning, copy trading and a learning library with bank grade security and 24/7 support.
+
+## Key pages
+
+- [Home](https://greenwoodfinlore-au.com/): The platform. AI signals, growth calculator, custody and support for Australian traders.
+- [Product](https://greenwoodfinlore-au.com/product): Charts, signals, portfolio tracking and learning tools in one platform.
+- [About Us](https://greenwoodfinlore-au.com/about-us): The story, values and principles behind Greenwood Finlore.
+- [Contact Us](https://greenwoodfinlore-au.com/contact-us): Email support from real people, available 24/7.
+- [FAQs](https://greenwoodfinlore-au.com/faq): Answers about accounts, security, assets, deposits and withdrawals.
+- [Sign Up](https://greenwoodfinlore-au.com/sign-up): Create a free account in under two minutes.
+
+## Legal
+
+- [Privacy Policy](https://greenwoodfinlore-au.com/privacy): How Greenwood Finlore collects, uses and protects personal data.
+- [Terms of Use](https://greenwoodfinlore-au.com/terms): The terms that govern use of the website and platform.
+- [Risk Disclosure](https://greenwoodfinlore-au.com/risk-disclosure): Trading cryptocurrencies, forex and CFDs involves substantial risk of loss.

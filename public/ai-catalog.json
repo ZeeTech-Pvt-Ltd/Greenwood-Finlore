@@ -1,0 +1,17 @@
+{
+  "specVersion": "1.0",
+  "host": {
+    "displayName": "Greenwood Finlore",
+    "identifier": "greenwoodfinlore-au.com"
+  },
+  "entries": [
+    {
+      "identifier": "urn:air:greenwoodfinlore-au.com:web:site",
+      "displayName": "Greenwood Finlore",
+      "type": "text/html",
+      "url": "https://greenwoodfinlore-au.com/",
+      "description": "Landing site for Greenwood Finlore, an AI powered multi-asset trading platform for Bitcoin, Ethereum and 300+ markets, available in Australia.",
+      "tags": ["trading", "crypto", "finance", "platform"]
+    }
+  ]
+}
