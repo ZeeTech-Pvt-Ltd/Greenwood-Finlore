@@ -27,7 +27,7 @@ const CONTACT_ROWS = [
 
 export default function Contacts() {
   useMeta({
-    title: 'Contact Us - Get in Touch with Greenwood Finlore',
+    title: 'Contact Greenwood Finlore - Support Available 24/7',
     description:
       'Contact the Greenwood Finlore team. Support is available 24/7 by email, with a dedicated account manager for every client.',
     keywords: 'contact Greenwood Finlore, crypto trading support Australia, Greenwood Finlore help, 24/7 trading support',

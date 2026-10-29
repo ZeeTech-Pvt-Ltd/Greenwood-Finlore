@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import useMeta from '../hooks/useMeta'
 
 export default function NotFound() {
-  useMeta({ title: 'Page Not Found - Greenwood Finlore', canonical: null, robots: 'noindex, follow' })
+  useMeta({ title: '404 Page Not Found - Greenwood Finlore Trading Platform', canonical: null, robots: 'noindex, follow' })
 
   return (
     <section className="centered-page">

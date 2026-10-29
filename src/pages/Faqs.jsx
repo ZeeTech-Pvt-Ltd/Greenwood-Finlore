@@ -6,7 +6,7 @@ import { SITE_URL, FAQS } from '../data/content'
 
 export default function Faqs() {
   useMeta({
-    title: 'FAQs - Frequently Asked Questions About Greenwood Finlore',
+    title: 'Greenwood Finlore FAQs - Answers to Common Questions',
     description:
       'Answers to common Greenwood Finlore questions: account setup, security, assets, deposits and withdrawals. Create your free account today.',
     keywords: 'Greenwood Finlore FAQ, crypto trading questions, how to trade crypto Australia, Greenwood Finlore account help',

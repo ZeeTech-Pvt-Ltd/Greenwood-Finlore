@@ -6,7 +6,7 @@ import { SITE_URL, SUPPORT_EMAIL } from '../data/content'
 
 export default function RiskDisclosure() {
   useMeta({
-    title: 'Risk Disclosure - Greenwood Finlore',
+    title: 'Risk Disclosure - Trading Risks at Greenwood Finlore',
     description:
       'Read the Greenwood Finlore Risk Disclosure covering the substantial risks of trading cryptocurrencies, forex and CFDs.',
     keywords: 'Greenwood Finlore risk disclosure, crypto trading risks Australia',

@@ -6,7 +6,7 @@ import { SITE_URL, SUPPORT_EMAIL } from '../data/content'
 
 export default function PrivacyPolicy() {
   useMeta({
-    title: 'Privacy Policy - Greenwood Finlore',
+    title: 'Privacy Policy - Greenwood Finlore Data Protection',
     description:
       'Read the Greenwood Finlore Privacy Policy to understand how your personal data is collected, used and protected.',
     keywords: 'Greenwood Finlore privacy policy, trading platform data protection Australia',

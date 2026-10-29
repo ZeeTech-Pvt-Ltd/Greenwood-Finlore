@@ -32,7 +32,7 @@ function BelowTheFold() {
 
 export default function Home() {
   useMeta({
-    title: 'Greenwood Finlore - AI Powered Trading Platform | Australia',
+    title: 'Greenwood Finlore - AI Powered Trading in Australia',
     description:
       'Greenwood Finlore is an AI powered trading platform for Bitcoin, Ethereum and 300+ markets. Trade smarter in Australia. Join free today.',
     keywords:

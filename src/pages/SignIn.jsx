@@ -5,7 +5,7 @@ import { SITE_URL } from '../data/content'
 
 export default function SignIn() {
   useMeta({
-    title: 'Sign In - Access Your Greenwood Finlore Account',
+    title: 'Sign In - Access Your Greenwood Finlore Account Now',
     description:
       'Sign in to your Greenwood Finlore account to view your portfolio, signals and account settings. Support is available 24/7.',
     keywords: 'Greenwood Finlore sign in, trading account login Australia, crypto platform login',

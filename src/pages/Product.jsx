@@ -7,7 +7,7 @@ import { SITE_URL, PRODUCT_PAGE } from '../data/content'
 
 export default function Product() {
   useMeta({
-    title: 'Greenwood Finlore Product - Charts, Signals and One Portfolio',
+    title: 'Greenwood Finlore - Charts, Signals and One Portfolio',
     description:
       'Explore the Greenwood Finlore product: readable charts, AI signals, copy trading and a learning library in one secure platform. Start free today.',
     keywords: 'Greenwood Finlore product, trading charts Australia, AI trading signals, copy trading Australia',

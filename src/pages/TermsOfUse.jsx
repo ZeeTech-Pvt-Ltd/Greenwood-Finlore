@@ -6,7 +6,7 @@ import { SITE_URL, SUPPORT_EMAIL } from '../data/content'
 
 export default function TermsOfUse() {
   useMeta({
-    title: 'Terms of Use - Greenwood Finlore',
+    title: 'Terms of Use - Greenwood Finlore Website Agreement',
     description:
       'Read the Greenwood Finlore Terms of Use governing access to the website and trading platform.',
     keywords: 'Greenwood Finlore terms of use, trading platform terms Australia',
