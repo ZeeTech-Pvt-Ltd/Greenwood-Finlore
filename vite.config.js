@@ -15,7 +15,7 @@ export default defineConfig({
     ],
   },
   server: {
-    port: 5200, // 5173-5199 are occupied by other apps on this machine
+    port: 5205, // 5173-5204 are occupied by other apps on this machine
   },
   build: {
     rollupOptions: {
