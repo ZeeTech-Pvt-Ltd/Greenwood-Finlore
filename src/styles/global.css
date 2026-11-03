@@ -299,7 +299,7 @@ section[id],
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 24px;
+  gap: 20px;
   height: 72px;
 }
 
@@ -341,12 +341,14 @@ section[id],
 .site-header__nav {
   display: flex;
   align-items: center;
-  gap: 26px;
+  gap: 20px;
+  min-width: 0;
 }
 
 .site-header__nav a {
   font-size: 14.5px;
   font-weight: 500;
+  white-space: nowrap;
   color: var(--muted);
   transition: color 0.15s ease;
 }
@@ -1899,6 +1901,62 @@ section[id],
   line-height: 1.7;
 }
 
+/* ---------- page: how it works timeline ---------- */
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.timeline__item {
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  gap: 24px;
+  align-items: flex-start;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 30px;
+  box-shadow: var(--shadow-card);
+}
+
+.timeline__num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  font-family: var(--font-mono);
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--evergreen);
+  background: var(--emerald-soft);
+  border: 1px solid rgba(31, 138, 88, 0.4);
+  border-radius: 14px;
+}
+
+.timeline__item h3 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 21px;
+  margin: 0 0 10px;
+}
+
+.timeline__item h3 svg {
+  color: var(--evergreen);
+}
+
+.timeline__item p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 15.5px;
+  line-height: 1.7;
+}
+
+
 /* ---------- auth / sign in ---------- */
 
 .auth-wrap {
@@ -2310,6 +2368,35 @@ section[id],
 
 /* ---------- responsive ---------- */
 
+@media (max-width: 1200px) {
+  /* eight nav links need tighter spacing to stay on one aligned row */
+  .site-header__nav {
+    gap: 14px;
+  }
+
+  .site-header__nav a {
+    font-size: 14px;
+  }
+}
+
+/* eight links don't fit comfortably below ~1100px, so the hamburger
+   menu takes over from there instead of waiting for tablets */
+@media (max-width: 1100px) {
+  .site-header__nav {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: inline-flex;
+  }
+
+  /* compact but readable header button while the hamburger is in use */
+  .site-header__actions .btn {
+    padding: 10px 18px;
+    font-size: 14.5px;
+  }
+}
+
 @media (max-width: 1024px) {
   .hero-grid,
   .about-grid,
@@ -2382,20 +2469,6 @@ section[id],
 }
 
 @media (max-width: 860px) {
-  .site-header__nav {
-    display: none;
-  }
-
-  .menu-toggle {
-    display: inline-flex;
-  }
-
-  /* compact but readable header button on tablets */
-  .site-header__actions .btn {
-    padding: 10px 18px;
-    font-size: 14.5px;
-  }
-
   .hero {
     padding: 56px 0 72px;
   }

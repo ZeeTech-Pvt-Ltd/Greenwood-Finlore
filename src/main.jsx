@@ -11,6 +11,9 @@ import './styles/global.css'
 import Home from './pages/Home'
 import AboutUs from './pages/AboutUs'
 import Product from './pages/Product'
+import FeaturesPage from './pages/FeaturesPage'
+import HowItWorksPage from './pages/HowItWorksPage'
+import Reviews from './pages/Reviews'
 import Contacts from './pages/Contacts'
 import Faqs from './pages/Faqs'
 import SignUp from './pages/SignUp'
@@ -29,6 +32,9 @@ createRoot(document.getElementById('root')).render(
           <Route index element={<Home />} />
           <Route path="about-us" element={<AboutUs />} />
           <Route path="product" element={<Product />} />
+          <Route path="features" element={<FeaturesPage />} />
+          <Route path="how-it-works" element={<HowItWorksPage />} />
+          <Route path="reviews" element={<Reviews />} />
           <Route path="contact-us" element={<Contacts />} />
           <Route path="faq" element={<Faqs />} />
           <Route path="sign-up" element={<SignUp />} />

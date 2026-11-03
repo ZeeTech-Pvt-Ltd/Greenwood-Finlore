@@ -6,6 +6,9 @@
 
 - [Home](https://greenwoodfinlore-au.com/): The platform. AI signals, growth calculator, custody and support for Australian traders.
 - [Product](https://greenwoodfinlore-au.com/product): Charts, signals, portfolio tracking and learning tools in one platform.
+- [Features](https://greenwoodfinlore-au.com/features): AI signals, copy trading, fractional shares and the learning library.
+- [How It Works](https://greenwoodfinlore-au.com/how-it-works): Three steps from sign up to your first AI signal.
+- [Reviews](https://greenwoodfinlore-au.com/reviews): Client testimonials and a 4.8 out of 5 rating from Australian investors.
 - [About Us](https://greenwoodfinlore-au.com/about-us): The story, values and principles behind Greenwood Finlore.
 - [Contact Us](https://greenwoodfinlore-au.com/contact-us): Email support from real people, available 24/7.
 - [FAQs](https://greenwoodfinlore-au.com/faq): Answers about accounts, security, assets, deposits and withdrawals.

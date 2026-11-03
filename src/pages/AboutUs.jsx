@@ -106,7 +106,6 @@ export default function AboutUs() {
                 data-reveal
                 style={{ transitionDelay: `${i * 80}ms` }}
               >
-                <span className="step__num step__num--gold">0{i + 1}</span>
                 <h3>{item.title}</h3>
                 <p>{item.text}</p>
               </div>
