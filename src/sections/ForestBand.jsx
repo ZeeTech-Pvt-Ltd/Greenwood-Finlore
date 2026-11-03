@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import Link from 'next/link'
 import Icon from '../components/Icon'
 import Calculator from '../components/Calculator'
 import { ChartLineArt } from '../components/Art'
@@ -30,7 +30,7 @@ export default function ForestBand() {
                 </li>
               ))}
             </ul>
-            <Link className="btn btn--gold btn--lg" to="/sign-up" data-reveal>
+            <Link className="btn btn--gold btn--lg" href="/sign-up" data-reveal>
               Create Your Free Account
             </Link>
           </div>

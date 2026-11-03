@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import Link from 'next/link'
 import FaqList from '../components/FaqList'
 
 export default function FaqSection() {
@@ -15,7 +15,7 @@ export default function FaqSection() {
           <FaqList />
         </div>
         <p className="faq-section__more" data-reveal>
-          Still have questions? <Link to="/contact-us">Contact our team</Link>. We answer around
+          Still have questions? <Link href="/contact-us">Contact our team</Link>. We answer around
           the clock.
         </p>
       </div>

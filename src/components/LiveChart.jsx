@@ -1,3 +1,4 @@
+'use client'
 import { useEffect, useRef, useState } from 'react'
 
 // Real market data from the public Binance API (CORS-open, no keys):

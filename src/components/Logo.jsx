@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import Link from 'next/link'
 
 /**
  * Brand mark: growth rings - concentric circles like the cross-section
@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
  */
 export default function Logo({ light = false }) {
   return (
-    <Link to="/" className={`logo${light ? ' logo--light' : ''}`} aria-label="Greenwood Finlore - home">
+    <Link href="/" className={`logo${light ? ' logo--light' : ''}`} aria-label="Greenwood Finlore - home">
       <svg className="logo__mark" viewBox="0 0 36 36" role="img" aria-hidden="true">
         <rect x="1" y="1" width="34" height="34" rx="9" fill="#fbfdf7" stroke="#c0d0aa" />
         {/* growth rings */}
