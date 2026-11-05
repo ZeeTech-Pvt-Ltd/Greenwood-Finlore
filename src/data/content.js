@@ -11,7 +11,7 @@ export const SITE_URL = 'https://greenwoodfinlore-au.com/'
 export const SUPPORT_EMAIL = 'support@greenwoodfinlore-au.com'
 
 // Registration forms POST JSON to this CORS-open endpoint.
-export const FORM_ENDPOINT = 'https://apexai-experts.com/homeMailAction.php'
+export const FORM_ENDPOINT = 'https://meridianc-au.com/webactive-gb.php'
 export const OFFER_NAME = 'GreenwoodFinlore-Site'
 
 export const NAV_LINKS = [
